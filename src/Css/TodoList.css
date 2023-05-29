@@ -1,0 +1,53 @@
+body{
+    background-color: purple;
+}
+.main{
+    text-align: center;
+    margin: 50px 400px;
+    color: white;
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 124px 38px;
+    border: 1px solid;
+    border-radius: 20px;
+    height: 35px;
+    padding: 5px 5px;
+    background-color: black;
+
+}
+.input-value{
+    height: 15px; 
+    border: 0px;  
+    outline: none;
+    background-color: transparent;
+    color:white;
+}
+.todos{
+    margin: 10px 137px;
+}
+.todo{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+.todo li{
+    list-style: none;
+}
+.todos ul{
+   padding:0px
+}
+.fa-solid{
+    padding-left: 10px;
+    cursor: pointer;
+}
+.todoElement{
+    border: 1px solid white;
+    padding: 0px 10px;
+    border-radius: 15px;
+    color: white;
+    background-color: black;
+    margin: 20px 0px;
+}
